@@ -1,4 +1,4 @@
-package unifacisa.br.iveralda;
+package cesed.br.protocolo;
 
 import org.junit.Test;
 

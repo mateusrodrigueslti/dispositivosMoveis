@@ -1,41 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="unifacisa.br.iveralda.MainActivity"
+    tools:context="cesed.br.protocolo.MainActivity"
     android:orientation="vertical">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Carioca Pegou Iveralda"
-        android:id="@+id/textView"
-        android:textSize="30dp"
-        android:textAlignment="center"/>
+        android:text="Escolha uma das opções:"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textSize="30dp"/>
 
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="350dp"
-        android:src="@drawable/veia"
-        android:id="@+id/imageView" />
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textAlignment="center"
-        android:text="100"
-        android:layout_below="@+id/textView"
-        android:id="@+id/vezes"
-        android:textSize="40dp"/>
     <Button
+        android:id="@+id/btn_academico"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Pegar mais vezes"
-        android:id="@+id/botaoToin"/>
+        android:text="Solicitação ao controle academico"/>
+
+    <Button
+        android:id="@+id/btn_coordenacao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Soliciação a coordenação de curso"/>
+
+    <Button
+        android:id="@+id/btn_administracao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Solicitação a administração"/>
 </LinearLayout>

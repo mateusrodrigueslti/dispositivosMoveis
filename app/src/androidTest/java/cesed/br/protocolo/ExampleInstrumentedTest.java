@@ -1,4 +1,4 @@
-package unifacisa.br.iveralda;
+package cesed.br.protocolo;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("unifacisa.br.iveralda", appContext.getPackageName());
+        assertEquals("cesed.br.protocolo", appContext.getPackageName());
     }
 }
