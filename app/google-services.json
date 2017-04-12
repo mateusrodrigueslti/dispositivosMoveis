@@ -1,0 +1,86 @@
+{
+  "project_info": {
+    "project_number": "140388130002",
+    "firebase_url": "https://todoappandroid-6b6f8.firebaseio.com",
+    "project_id": "todoappandroid-6b6f8",
+    "storage_bucket": "todoappandroid-6b6f8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:140388130002:android:484e85c87e81ef44",
+        "android_client_info": {
+          "package_name": "cesed.br.todoapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "140388130002-tonigikmc2iiqme5d2okbn9utq13bpia.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDwVDMKjaJvPk7OGakp9yTAeqrSv4k2NT4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:140388130002:android:6e36d298956b5242",
+        "android_client_info": {
+          "package_name": "unifacisa.br.iveralda"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "140388130002-c978upbj00u8ne5v6qkof8goshislspk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "unifacisa.br.iveralda",
+            "certificate_hash": "b634f73f8b297dbffc63cf853eaee74df7b6f692"
+          }
+        },
+        {
+          "client_id": "140388130002-tonigikmc2iiqme5d2okbn9utq13bpia.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDwVDMKjaJvPk7OGakp9yTAeqrSv4k2NT4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "140388130002-tonigikmc2iiqme5d2okbn9utq13bpia.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
